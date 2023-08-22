@@ -1,1 +1,0 @@
-<li><a href="[field:typelink /]/#contact0"> <i class="iconfont icon-friends"></i><em>[field:typename /]</em><span class="iconfont icon-xiangyou"></span> </a></li>

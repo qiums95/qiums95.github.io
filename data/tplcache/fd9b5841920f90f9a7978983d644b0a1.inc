@@ -1,1 +1,0 @@
-<li class="swiper-slide"><img src="[field:imgsrc/]"/></li>

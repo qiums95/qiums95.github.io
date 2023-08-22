@@ -1,1 +1,0 @@
-<a href="[field:typelink /]">更多产品</a>

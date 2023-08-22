@@ -1,1 +1,0 @@
-<li><a href="[field:typelink /]"> <i class="iconfont icon-icon_feedback"></i><em>[field:typename /]</em><span class="iconfont icon-xiangyou"></span> </a></li>
