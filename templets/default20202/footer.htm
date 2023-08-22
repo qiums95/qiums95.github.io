@@ -1,0 +1,28 @@
+<div class="swiper-slide swiper-footer" data-hash="Footer">
+      <footer class="lh-footer">
+        <div class="container">
+          <div class="lh-footer-a clearfix">
+            <div class="lh-footer-l left"> <a href="/" class="lh-footer-logo"><img src="/skin/images/flogo.png" /></a>
+              <ul class="lh-footer-nav clearfix">
+                {dede:type typeid='39'}<li><a href="[field:typelink /][field:seotitle /]"> <i class="iconfont icon-friends"></i><em>[field:typename /]</em><span class="iconfont icon-xiangyou"></span> </a></li>{/dede:type}
+                {dede:type typeid='40'}<li><a href="[field:typelink /]"> <i class="iconfont icon-icon_feedback"></i><em>[field:typename /]</em><span class="iconfont icon-xiangyou"></span> </a></li>{/dede:type}
+                {dede:type typeid='41'}<li><a href="[field:typelink /][field:seotitle /]"> <i class="iconfont icon-location"></i><em>[field:typename /]</em><span class="iconfont icon-xiangyou"></span> </a></li>{/dede:type}
+              </ul>
+            </div>
+            <div class="lh-footer-r right">
+              <div class="img"><img src="/skin/images/ewm.png" /></div>
+              <div class="text">
+                <h2>{dede:global.cfg_phone/}</h2>
+                <h3>地址：{dede:global.cfg_add/}</h3>
+                <h3>传真：{dede:global.cfg_fax/} 电话：{dede:global.cfg_tel/}</h3>
+                <h3>邮箱：{dede:global.cfg_email/}</h3>
+              </div>
+            </div>
+          </div>
+          <div class="lh-footer-b clearfix">
+            <h2>{dede:global.cfg_powerby/}     备案号：<a href="http://www.beian.miit.gov.cn/" style="color:#FFF;">{dede:global.cfg_beian/}</a></h2>
+            <h3> {dede:flink titlelen='80' row='24' type='text'}[field:link /] 丨 {/dede:flink}</h3>
+          </div>
+        </div>
+      </footer>
+    </div>

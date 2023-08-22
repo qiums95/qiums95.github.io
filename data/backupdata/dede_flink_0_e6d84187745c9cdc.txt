@@ -1,0 +1,4 @@
+INSERT INTO `dede_flink` VALUES('2','1','https://www.91084.com/','织梦模板','','','','1226375403','1','2');
+INSERT INTO `dede_flink` VALUES('3','1','https://www.yingzicms.com/','网站建设','','','','1572924233','1','2');
+INSERT INTO `dede_flink` VALUES('4','1','https://www.dns.la/','智能DNS','','','','1547027998','1','2');
+INSERT INTO `dede_flink` VALUES('5','1','https://www.gezhancn.com/','企业网站建设','','','','1546933906','1','2');

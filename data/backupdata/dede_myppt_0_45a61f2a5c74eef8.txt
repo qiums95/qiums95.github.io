@@ -1,0 +1,4 @@
+INSERT INTO `dede_myppt` VALUES('11','2','0','Corporate vision','打造全球知名智能化物流设备企业','/uploads/200217/1-20021G3494A00.png','#');
+INSERT INTO `dede_myppt` VALUES('12','2','0','Corporate vision','打造全球知名智能化物流设备企业','/uploads/200217/1-20021G34SG96.png','#');
+INSERT INTO `dede_myppt` VALUES('13','3','0','Corporate vision','打造全球知名智能化物流设备企业','/uploads/200217/1-20021G35354339.jpg','#');
+INSERT INTO `dede_myppt` VALUES('14','3','0','Corporate vision','打造全球知名智能化物流设备企业','/uploads/200217/1-20021G35332303.jpg','#');

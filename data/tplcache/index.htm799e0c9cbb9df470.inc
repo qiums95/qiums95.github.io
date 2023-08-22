@@ -1,0 +1,42 @@
+<?php
+$z[0]=Array("global","",763,789);
+$z[0][4]=array();
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",833,863);
+$z[1][4]=array();
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",900,927);
+$z[2][4]=array();
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("include","",1202,1242);
+$z[3][4]=array();
+$z[3][4]['filename']="headindex.htm";
+$z[4]=Array("myppt","\r\n		  <li class=\"swiper-slide style1\"> <a href=\"[field:url/]\">\r\n            <div class=\"img\" style=\"background-image:url([field:pic/]);\"></div>\r\n            <div class=\"text\">\r\n              <h2 data-swiper-parallax=\"-1500\">[field:title/]</h2>\r\n              <h3 data-swiper-parallax=\"-3000\">[field:introduce/]</h3>\r\n              <pre data-swiper-parallax=\"-4500\"></pre>\r\n            </div>\r\n            </a> </li>\r\n			",1851,2307);
+$z[4][4]=array();
+$z[4][4]['typeid']="2";
+$z[5]=Array("myppt","\r\n		  <li class=\"swiper-slide style1\"> <a href=\"[field:url/]\">\r\n            <div class=\"img\" style=\"background-image:url([field:pic/]);\"></div>\r\n            <div class=\"text\">\r\n              <h2 data-swiper-parallax=\"-1500\">[field:title/]</h2>\r\n              <h3 data-swiper-parallax=\"-3000\">[field:introduce/]</h3>\r\n              <pre data-swiper-parallax=\"-4500\"></pre>\r\n            </div>\r\n            </a> </li>\r\n			",2477,2933);
+$z[5][4]=array();
+$z[5][4]['typeid']="3";
+$z[6]=Array("channelartlist","\r\n	<div class=\"swiper-slide\" data-hash=\"About\">\r\n      <div class=\"lh-index-about\">\r\n        <div class=\"container clearfix\">\r\n          <div class=\"text\">\r\n            {dede:sql sql='Select content from dede_arctype where id=1'} \r\n        [field:content/]\r\n        {/dede:sql}\r\n            <a href=\"{dede:field name='typeurl'/}\" class=\"lh-more gray\"></a> </div>\r\n          <div class=\"img\"> <img src=\"{dede:field name='typeimg'/}\" /> <a href='javascript:;' class=\"lh-video-btn\"><i class=\"iconfont icon-bofang\"></i></a> </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n	",3022,3649);
+$z[6][4]=array();
+$z[6][4]['typeid']="2,2";
+$z[7]=Array("channelartlist","\r\n	<div class=\"swiper-slide\" data-hash=\"Rd\">\r\n      <div class=\"lh-index-rd clearfix\">\r\n        <div class=\"img\" style=\"background-image:url(/skin/images/v1.jpg);\"></div>\r\n        <div class=\"container clearfix\">\r\n          <div class=\"text right\">\r\n            <h2>{dede:field name='typenameen'/}</h2>\r\n            <h3>{dede:field name='typename'/}</h3>\r\n            <pre>{dede:field name='description'/}······……...</pre>\r\n            <a href=\"{dede:field name='typeurl'/}\" class=\"lh-more gray\"></a> </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n	",3670,4290);
+$z[7][4]=array();
+$z[7][4]['typeid']="12,12";
+$z[8]=Array("channelartlist","\r\n		  <li><a href=\"{dede:field name='typeurl'/}\">\r\n            <div class=\"img\"><img src=\"{dede:field name='typeimg'/}\"/></div>\r\n            <div class=\"text\">\r\n              <h2>{dede:field name='typenameen'/}</h2>\r\n              <h3>{dede:field name='typename'/}</h3>\r\n              <pre></pre>\r\n              <h4>查看更多 +</h4>\r\n            </div>\r\n            </a> </li>\r\n			",4451,4898);
+$z[8][4]=array();
+$z[8][4]['typeid']="14,19,25,0";
+$z[9]=Array("channelartlist","\r\n	<div class=\"swiper-slide\" data-hash=\"Solution\">\r\n      <div class=\"lh-solution\">\r\n        <div class=\"lh-solution-top\" style=\"background-image:url(/skin/images/v2.jpg);\">\r\n          <div class=\"text\"> \r\n            <!--<h2></h2><h3>{dede:field name='typename'/}</h3>--> \r\n          </div>\r\n        </div>\r\n        <div class=\"container clearfix\">\r\n          <ul class=\"lh-solution-item clearfix lh-flex\">\r\n            {dede:arclist row='6' titlelen='50' orderby='pubdate'}\r\n			<li><a href=\"[field:arcurl/]\">\r\n              <div class=\"img\"><img src=\"/skin/images/a[field:global.autoindex/].jpg\" /></div>\r\n              <div class=\"text\">\r\n                <h2>[field:title/]</h2>\r\n                <pre>[field:description function=\"cn_substr(@me,100)\"/]...</pre>\r\n                <h3>see more +</h3>\r\n              </div>\r\n              </a></li>\r\n			  {/dede:arclist}\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </div>\r\n	",4970,5959);
+$z[9][4]=array();
+$z[9][4]['typeid']="27,27";
+$z[10]=Array("channelartlist","\r\n	<div class=\"swiper-slide\" data-hash=\"Service\">\r\n      <div class=\"lh-index-service\" style=\"background-image:url({dede:field name='typeimg'/});\">\r\n        <div class=\"container\">\r\n          <h2></h2>\r\n          <h3>{dede:field name='typename'/}</h3>\r\n          <pre>{dede:sql sql='Select content from dede_arctype where id=34'} \r\n        [field:content/]\r\n        {/dede:sql}</pre>\r\n          <ul class=\"lh-service-item clearfix lh-flex\">\r\n            {dede:channel type='son' noself='yes'}\r\n			<li><a href=\"[field:typelink/]\">\r\n              <div class=\"img\"><img src=\"[field:typeimg/]\" /></div>\r\n              <h4>[field:typename/]</h4>\r\n              </a></li>\r\n			  {/dede:channel}\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </div>\r\n	",5985,6792);
+$z[10][4]=array();
+$z[10][4]['typeid']="34,34";
+$z[11]=Array("channelartlist","\r\n	<div class=\"swiper-slide swiper-news\" data-hash=\"News\">\r\n      <div class=\"lh-index-news\">\r\n        <div class=\"container clearfix\">\r\n          <div class=\"lh-news-l left\">\r\n            <h2></h2>\r\n            <h3>{dede:field name='typename'/}</h3>\r\n            <pre>{dede:field name='typenameen'/}<br />\r\nThe&nbsp;latest&nbsp;news&nbsp;content&nbsp;is&nbsp;shared&nbsp;with&nbsp;you<br />\r\n<br />\r\n</pre>\r\n            <ul>\r\n              {dede:channel type='son' noself='yes'}\r\n			  <li><a href=\"[field:typelink/]\">[field:typename/]</a></li>\r\n			  {/dede:channel}\r\n            </ul>\r\n          </div>\r\n          <div class=\"lh-news-r right clearfix\">\r\n            <ul class=\"lh-news-hd clearfix\">\r\n              {dede:arclist row='3' titlelen='50' orderby='pubdate'}\r\n			  <li data-url=\"[field:arcurl/]\"> <img src=\"[field:litpic/]\"/> </li>\r\n			  {/dede:arclist}\r\n            </ul>\r\n            <ul class=\"lh-news-bd\">\r\n              {dede:arclist row='3' titlelen='50' orderby='pubdate'}\r\n			  <li><a href=\"[field:arcurl/]\">\r\n                <h2>[field:title/]</h2>\r\n                <pre>[field:description function=\"cn_substr(@me,200)\"/]...</pre>\r\n                <div class=\"time clearfix\">\r\n                  <h3 class=\"left\">[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</h3>\r\n                  <h4 class=\"right\">查看详情</h4>\r\n                </div>\r\n                </a></li>\r\n				{/dede:arclist}\r\n            </ul>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n	",6823,8372);
+$z[11][4]=array();
+$z[11][4]['typeid']="7,7";
+$z[12]=Array("include","",8666,8703);
+$z[12][4]=array();
+$z[12][4]['filename']="footer.htm";
+
+?>

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<meta name="viewport" content="width=1280">
+<link href="{dede:global.cfg_cmspath/}/skin/css/aos.css" rel="stylesheet">
+<link href="{dede:global.cfg_cmspath/}/skin/css/style.css" rel="stylesheet">
+<link href="{dede:global.cfg_cmspath/}/skin/css/common.css" rel="stylesheet">
+<script src="{dede:global.cfg_cmspath/}/skin/js/jquery.js"></script>
+<script src="{dede:global.cfg_cmspath/}/skin/js/jquery.superslide.2.1.1.js"></script>
+<script src="{dede:global.cfg_cmspath/}/skin/js/common.js"></script>
+</head>
+<body>
+{dede:include filename="head.htm"/} 
+<!--内页大图开始-->
+<div class="nybanner">
+  <div class="w1200">
+    <h3>网站地图</h3>
+    <span class="en">WEBSITE MAP</span> <span class="line"></span></div>
+</div>
+<!--内页大图结束-->
+<div class="wrapper">
+  <div class="sitepath w1200"><s class="nyIcon"></s>您的位置：<a href="{dede:global.cfg_cmspath/}/">网站首页</a> > <a href="{dede:global.cfg_cmspath/}/sitemap.html">网站地图</a></div>
+  <div class="content aboutPage clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
+    <div class="txtcon"> 
+      <!--网站地图开始--> 
+      {dede:channelartlist typeid="all"}
+      <dl class="sitemap">
+        <dt><a href="{dede:field name='typeurl'/}" title="{dede:field name='typename'/}">{dede:field name='typename'/}</a></dt>
+        <dd> {dede:channel type ='son'} <a href="[field:typeurl/]" title="[field:typename/]">[field:typename/]</a> {/dede:channel} </dd>
+      </dl>
+      {/dede:channelartlist} 
+      
+      <!--网站地图结束--> 
+    </div>
+  </div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

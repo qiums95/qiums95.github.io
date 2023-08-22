@@ -1,0 +1,1 @@
+<li><a href="[field:typelink /]">了解详情</a></li>

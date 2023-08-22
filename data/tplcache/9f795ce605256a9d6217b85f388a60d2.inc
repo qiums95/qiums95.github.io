@@ -1,0 +1,10 @@
+{dede:pagestyle maxwidth='800' pagepicnum='12' ddmaxwidth='200' row='3' col='4' value='2'/}
+{dede:img ddimg='/uploads/allimg/200121/1-200121112118.jpg' text='' width='440' height='330'} /uploads/allimg/200121/1-200121112118.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/200121/1-200121112119.jpg' text='' width='440' height='330'} /uploads/allimg/200121/1-200121112119.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/200121/1-200121112121.jpg' text='' width='440' height='330'} /uploads/allimg/200121/1-200121112121.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/200121/1-200121112123.jpg' text='' width='440' height='330'} /uploads/allimg/200121/1-200121112123.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/200121/1-200121112125.jpg' text='' width='440' height='330'} /uploads/allimg/200121/1-200121112125.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/200121/1-200121112126.jpg' text='' width='440' height='330'} /uploads/allimg/200121/1-200121112126.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/200121/1-200121112128.jpg' text='' width='440' height='330'} /uploads/allimg/200121/1-200121112128.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/200121/1-200121112129.jpg' text='' width='440' height='330'} /uploads/allimg/200121/1-200121112129.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/200121/1-200121112131.jpg' text='' width='440' height='330'} /uploads/allimg/200121/1-200121112131.jpg {/dede:img}

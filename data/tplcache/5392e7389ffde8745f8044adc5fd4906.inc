@@ -1,0 +1,1 @@
+<li><a href="[field:typelink /][field:typenameen /]"> <i class="iconfont icon-location"></i><em>[field:typename /]</em><span class="iconfont icon-xiangyou"></span> </a></li>

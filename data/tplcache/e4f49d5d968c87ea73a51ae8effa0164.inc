@@ -1,0 +1,1 @@
+<li data-url="[field:arcurl/]"> <img src="[field:litpic/]"/> </li>
